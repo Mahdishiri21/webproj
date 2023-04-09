@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+.content{
+    padding:25px 15px;
+}
+.main-cont2{
+    width:100%;
+}
+.a-dhead h3{
+    background-color:rgb(231, 231, 231);
+    color:#017BA4;
+    text-align:center;
+    font-size:50px;
+}
+.form-body{
+    padding:40px;
+    margin:30px auto;
+    width:50%;
+    height:500px;
+    border-radius:50px;
+    background-color:antiquewhite;
+}
+.form input[type="submit"]{
+    padding:4px;
+    width:100%;
+    background-color:rgba(255, 255, 255, 0.865);
+    border-radius:30px;
+    border-color:white;
+    color: crimson;
+    font-size:40px;
+    font-weight:400;
+    margin:100px 0;
+}
+.form input[type="submit"]:hover{
+    cursor: pointer;
+    color:darkgray;
+}
+.form input[type="text"],.form input[type="date"]{
+    padding:4px;
+    width:100%;
+    background-color:rgba(255, 255, 255, 0.865);
+    border-color:white;
+    border:none;
+    color: crimson;
+    font-size:40px;
+    font-weight:400;
+}
+.form input[type="text"]:focus,
+.form input[type="date"]:focus{
+    box-shadow: 0 0 5px  crimson;
+	padding: 1%;
+	border: 1px solid  crimson;
+    outline: none;
+}
+.form-1,.form-2,.form-3{
+    margin:20px 0;
+}
